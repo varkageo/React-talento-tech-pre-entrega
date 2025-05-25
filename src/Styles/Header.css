@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8; /* gris muy claro */
+    border-bottom: 2px solid black;
+    padding: 1rem 2rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+  }
+  .logo{
+    height: 90px;
+    
+  }
+  
+  .icon {
+    color: black;
+  }
+  
+  .store-name {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+
